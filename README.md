@@ -1,6 +1,9 @@
 # toolkits
 just toolkits
 
+##calc_str_sim.cpp
+计算中文字符串相似度，支持设置不同匹配部分权重（代码中已设置中文疾病名相似权重）
+
 ## mtranslator.py
 支持湘雅医学词典和Bing在线翻译
 
