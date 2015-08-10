@@ -2,7 +2,7 @@
 just toolkits
 
 ## mtranslator.py
-湘雅医学词典
+支持湘雅医学词典和Bing在线翻译
 
 输入文件格式: ID,ENGLISH_TERM
 
