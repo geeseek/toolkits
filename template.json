@@ -1,0 +1,26 @@
+{
+   "templates": [
+        {
+            "urlPattern":"http://cn.bing.com/dict/search?q=.*",
+            "fields" : [
+                {
+                    "name" : "word",
+                    "xpath" : "span@def/text" 
+                }
+            ] 
+        },
+        {
+            "urlPattern":"http://www.mcd8.com/w/.*",
+            "fields" : [
+                {
+                    "name" : "dict_name",
+                    "xpath" : "div@word_name" 
+                },
+                {
+                    "name" : "word",
+                    "xpath" : "div@block" 
+                }
+            ]
+        }
+    ] 
+}
