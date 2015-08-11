@@ -84,7 +84,6 @@ if __name__=="__main__":
             continue
         id = parts[0]
         url = url_dict[dict](parts[1]) 
-        print url
         info = id + '\t' + parts[1] + '\t' + url
         html = crawl(url)
         if len(html) < 1:
