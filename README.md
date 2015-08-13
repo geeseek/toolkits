@@ -13,7 +13,7 @@ just toolkits
 以bing.com的搜索结果页抽取为例
 ```
 pattern:http://cn.bing.com/dict/search?q=.*
-[\#text]:span'class@def'
+[#text]:span'class@def'
 
 ```
  pattern为网页的URL pattern，程序通过网页的URL和pattern来选取对应的抽取模板 
